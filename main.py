@@ -43,5 +43,4 @@ def monthly_average(country: str, city: str, month: str):
 # Generate the OpenAPI schema:
 openapi_schema = app.openapi()
 with open(join(wellknown_path, "openapi.json"), "w") as f:
-    json.dump(openapi_schema, f)Step 2: Create a test
-Now that you created a new route, create a test with Copilot Chat for this route that uses Spain as the country/region. Remember to select your code, and ask Copilot Chat to help you with this specific API that we just created. You can use the inline-chat or the dedicated chat pane with the following prompt:
+    json.dump(openapi_schema, f)
